@@ -219,6 +219,7 @@ const FormBuilder: React.FC = () => {
                       )}
                     </FormControl>
                   )}
+                  
                   {field?.type === "radio" && (
                     <>
                       <Flex alignItems="center" gap={2}>
